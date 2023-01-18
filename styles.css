@@ -54,6 +54,7 @@ main {
     background-color: lightblue;
     display: flex;
     flex-wrap: wrap;
+	margin-top: 500px;
 }
 
 article {
