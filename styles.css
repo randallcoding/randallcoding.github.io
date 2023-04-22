@@ -57,6 +57,7 @@ main {
   background-color: #d3dbdb;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 article {
@@ -71,12 +72,19 @@ article section {
   width: 70%;
 }
 
-.img-container img {
-  width: 100%;
+article section p {
+  text-align: left;
+  margin-left: 10px;
+  max-height: 100px;
+  overflow: auto;
 }
 
-img {
-  width: 150px;
+.img-container img {
+  margin: 0 auto;
+  display: block;
+  width: 330px;
+  height: 200px;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1000px) {
@@ -90,7 +98,7 @@ img {
     display: none;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   article {
     width: 100%;
   }
@@ -99,7 +107,7 @@ img {
   display: flex;
   list-style: none;
   justify-content: center;
-  color: black;
+  color: #232323;
   margin-top: 300px;
 }
 
@@ -107,6 +115,20 @@ img {
   display: flex;
   justify-content: center;
   list-style: none;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.restful {
+  margin-bottom: 53px;
+}
+
+img {
+  width: 80px;
 }
 
 /*# sourceMappingURL=styles.css.map */
