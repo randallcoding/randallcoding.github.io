@@ -1,0 +1,156 @@
+$header-color: #E3E7EA;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background-color: #1877B7;
+  color: #ffffff;
+  padding: 10px;
+
+
+  .nav-buttons a {
+      margin-left: 10px;
+      color: #ffffff;
+      text-decoration: none;
+
+  }
+
+  .nav-styling {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .hamburger-menu {
+      display: none;
+  }
+
+  .hamburger-menu div {
+      width: 3.5rem;
+      height: 0.5rem;
+      background-color: #ffffff;
+      margin: 0.6rem 0.5rem 0.6rem 0;
+  }
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+header {
+    background-color: $header-color;
+}
+
+header section {
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+section {
+    width: 55%;
+}
+
+
+
+
+main {
+    background-color: #d3dbdb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 15px;
+}
+
+
+
+article section {
+    width: 70%;
+}
+
+article section p {
+  text-align: left;
+  margin-left: 10px;
+  max-height: 100px;
+  overflow: auto;
+}
+
+
+
+.img-container img {
+  margin: 0 auto;
+  display: block;
+  width: 330px;
+  height: 200px;
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 1000px) {
+    article {
+        width: 50%;
+    }
+	
+	nav .hamburger-menu {
+		display: block;
+	}
+	
+	nav .hidden-mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+    article {
+        width: 100%;
+    }
+}
+
+
+
+.socials ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	color: #232323;
+	margin-top: 300px;
+}
+
+.email ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.restful {
+  margin-bottom: 53px;
+}
+
+img {
+  width: 80px;
+}

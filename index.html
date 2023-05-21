@@ -1,1 +1,128 @@
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Alex Randall's Portfolio</title>
+	<link type="text/css" rel="stylesheet" href="normalize.css" />
+	<link type="text/css" rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.scss">
+</head>
+<body>
+
+<nav id="anchor-name1">
+    <div class="nav-buttons nav-styling">
+		<h2>Alex Randall</h2>
+	
+	
+	<div class="nav-styling hidden-mobile">
+		<a href="#anchor-name1">Home</a>
+		<a href="#anchor-name2">About</a>
+		<a href="#anchor-name3">Portfolio</a>
+		<a href="#anchor-name4">Contact</a>
+
+	</div>
+	
+	<div class='hamburger-menu'>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+	</div>
+
+	
+</nav>
+
+</body>
+</html>
+
+<header>
+    <section>
+        <h1 id="anchor-name2">Hey!</h1>
+        <p>My name is Alex Randall. I am a software developer and a graduate of iO Academy's January 2023 cohort. I've always been interested in learning programming, so I decided to take a dive head first into a bootcamp. If there's one major thing I've learned, it's that I love the logical puzzles coding brings. Below, you'll find the various projects I and my team have worked on... </p>
+    </section>
+</header>
+
+<main id="anchor-name3">
+    <article>
+        <section>
+            <h3>PHP Collector App</h3>
+            <p>In this project, we were tasked with making an SQL database containing items that we like. We then wrote a collection app in PHP to fetch the database and display the items on a website.</p>
+            <div class="img-container">
+                <img src="phpcollection.png" />
+            </div>
+            <div>
+                <button onClick="window.location.href='https://github.com/randallcoding/ajr-collection';">Github</button>
+            </div>
+        </section>
+    </article>
+    <article>
+        <section>
+            <h3>Javascript Game</h3>
+            <p>In this project we were tasked with making a JavaScript game that had you guess UK counties within a time limit. We learned how to effectively use Git as a team and how to utilise CSS to make the front end more accessible to the player.</p>
+            <div class="img-container">
+                <img src="countygame.png" />
+            </div>
+            <div>
+                <button onClick="window.location.href='https://23jan-county-guess.dev.io-academy.uk/';">Live</button>
+                <button onClick="window.location.href='https://github.com/iO-Academy/23-jan-countyGuess';">Github</button>
+            </div>
+        </section>
+    </article><article>
+    <section>
+        <h3>React App</h3>
+        <p>A restaurant app built in React consuming a pre-built API to fit a supplied design. It was styled using Sass and Bootstrap, and utilises modern JavaScript practices such as fetch to interact with the back-end API and hooks to handle the rendering of the data.</p>
+        <div class="img-container">
+            <img src="foodApp.png"  height="175" />
+        </div>
+        <div>
+            <button onClick="window.location.href='https://github.com/iO-Academy/23-jan-foodDeliveryFE';">Github</button>
+        </div>
+    </section>
+</article><article>
+    <section>
+        <h3>RESTful API</h3>
+        <p class="restful">In this project, we were tasked with building an API conforming to the RESTful architectural style and SOLID practises.</p>
+        <div class="img-container">
+            <img src="api.png" />
+        </div>
+        <div>
+            <button onClick="window.location.href='https://github.com/iO-Academy/23-jan-projectManagementApi';">Github</button>
+        </div>
+    </section>
+</article><article>
+    <section>
+        <h3>Student Management App</h3>
+        <p>With this project, it was a chance to further apply our PHP skills as we were tasked with working on an existing legacy code base - iO Academy's AcademyPortal.
+            For this project we were required to add extra functionality and fix some bugs. We used PHP, MVC, Slim and MySQL for the back-end and data was
+            displayed to the front-end using JavaScript and HTML.
+
+            We added a feature where it would count the number of places left on a course, and did bug fixes on the applicant CSV uploader.</p>
+        <div class="img-container">
+            <img src="academyPortal.png" />
+        </div>
+        <div>
+            <button onClick="window.location.href='https://portal.dev.io-academy.uk/';">Live</button>
+            <button onClick="window.location.href='https://github.com/iO-Academy/AcademyPortal';">Github</button>
+        </div>
+    </section>
+
+</main>
+
+<footer id="anchor-name4">
+	<div class="socials">
+		<ul class="links">
+            <li onClick="window.location.href='https://www.linkedin.com/in/alex-randall2002/';"><img src="iconmonstr-linkedin-3.svg" alt="LinkedIn"></li>
+            <li onClick="window.location.href='https://github.com/randallcoding';"><img src="iconmonstr-github-3.svg" alt="Github"></li>
+
+		</ul>
+	</div>
+
+    <div class="email">
+         <ul>
+             <li>Email: alexrandall2002+portfolio@gmail.com</li>
+         </ul>
+    </div>
+</footer>
